@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edulinq", "Edulinq\Edulinq.csproj", "{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}"
 EndProject
@@ -19,8 +19,8 @@ Global
 		Normal LINQ|x64 = Normal LINQ|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.Edulinq implementation|Any CPU.ActiveCfg = Edulinq implementation|Any CPU
-		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.Edulinq implementation|Any CPU.Build.0 = Edulinq implementation|Any CPU
+		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.Edulinq implementation|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.Edulinq implementation|Any CPU.Build.0 = Debug|Any CPU
 		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.Edulinq implementation|x64.ActiveCfg = Edulinq implementation|Any CPU
 		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.LinqBridge implementation|Any CPU.ActiveCfg = LinqBridge implementation|Any CPU
 		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.LinqBridge implementation|Any CPU.Build.0 = LinqBridge implementation|Any CPU
@@ -28,8 +28,8 @@ Global
 		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.Normal LINQ|Any CPU.ActiveCfg = Normal LINQ|Any CPU
 		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.Normal LINQ|Any CPU.Build.0 = Normal LINQ|Any CPU
 		{DC9C855E-5021-48E1-B8EC-4C7ED7DDC54E}.Normal LINQ|x64.ActiveCfg = Normal LINQ|Any CPU
-		{1EA91221-058B-4823-9DE4-E4ED2680B997}.Edulinq implementation|Any CPU.ActiveCfg = Edulinq implementation|Any CPU
-		{1EA91221-058B-4823-9DE4-E4ED2680B997}.Edulinq implementation|Any CPU.Build.0 = Edulinq implementation|Any CPU
+		{1EA91221-058B-4823-9DE4-E4ED2680B997}.Edulinq implementation|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA91221-058B-4823-9DE4-E4ED2680B997}.Edulinq implementation|Any CPU.Build.0 = Debug|Any CPU
 		{1EA91221-058B-4823-9DE4-E4ED2680B997}.Edulinq implementation|x64.ActiveCfg = Edulinq implementation|Any CPU
 		{1EA91221-058B-4823-9DE4-E4ED2680B997}.LinqBridge implementation|Any CPU.ActiveCfg = LinqBridge implementation|Any CPU
 		{1EA91221-058B-4823-9DE4-E4ED2680B997}.LinqBridge implementation|Any CPU.Build.0 = LinqBridge implementation|Any CPU
@@ -37,8 +37,8 @@ Global
 		{1EA91221-058B-4823-9DE4-E4ED2680B997}.Normal LINQ|Any CPU.ActiveCfg = Normal LINQ|Any CPU
 		{1EA91221-058B-4823-9DE4-E4ED2680B997}.Normal LINQ|Any CPU.Build.0 = Normal LINQ|Any CPU
 		{1EA91221-058B-4823-9DE4-E4ED2680B997}.Normal LINQ|x64.ActiveCfg = Normal LINQ|Any CPU
-		{C552666B-5660-445A-AA21-CF807D03C83E}.Edulinq implementation|Any CPU.ActiveCfg = Edulinq implementation|Any CPU
-		{C552666B-5660-445A-AA21-CF807D03C83E}.Edulinq implementation|Any CPU.Build.0 = Edulinq implementation|Any CPU
+		{C552666B-5660-445A-AA21-CF807D03C83E}.Edulinq implementation|Any CPU.ActiveCfg = Debug|Any CPU
+		{C552666B-5660-445A-AA21-CF807D03C83E}.Edulinq implementation|Any CPU.Build.0 = Debug|Any CPU
 		{C552666B-5660-445A-AA21-CF807D03C83E}.Edulinq implementation|x64.ActiveCfg = Edulinq implementation|Any CPU
 		{C552666B-5660-445A-AA21-CF807D03C83E}.LinqBridge implementation|Any CPU.ActiveCfg = LinqBridge implementation|Any CPU
 		{C552666B-5660-445A-AA21-CF807D03C83E}.LinqBridge implementation|Any CPU.Build.0 = LinqBridge implementation|Any CPU
@@ -49,5 +49,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C913C43C-1489-4D0E-AA0F-FAA366A2ABBC}
 	EndGlobalSection
 EndGlobal
