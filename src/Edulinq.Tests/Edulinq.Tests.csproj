@@ -1,6 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <StartAction>Program</StartAction>
     <ProjectGuid>{1EA91221-058B-4823-9DE4-E4ED2680B997}</ProjectGuid>
 	<TargetFramework>net6.0</TargetFramework>
     <AssemblyTitle>Edulinq.Tests</AssemblyTitle>
@@ -31,9 +30,6 @@
     <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
-  <ItemGroup>
-    
-  </ItemGroup>
   <ItemGroup Condition="'$(Configuration)' == 'LinqBridge implementation'">
     <Reference Include="LinqBridge">
       <HintPath>..\LinqBridge.dll</HintPath>
@@ -48,5 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="obj\Edulinq implementation\.NETFramework,Version=v4.0.AssemblyAttributes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
   </ItemGroup>
 </Project>
